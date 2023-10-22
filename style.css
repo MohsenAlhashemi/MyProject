@@ -1,0 +1,49 @@
+
+ /* Set the background color and font for the whole document */
+  body {
+    background-color: #cea739;
+  }
+
+  /* Center the form on the screen */
+  .form-container {
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+
+  /* Add some space between the form elements */
+  .form-element {
+    margin-bottom: 10px;
+  }
+
+  /* Style the labels and inputs */
+  label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+  }
+
+  input, select {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  /* Change the button color on hover */
+  input[type=submit]:hover {
+    background-color: #444;
+  }
